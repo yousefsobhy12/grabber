@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grabber/screens/home_screen.dart';
+import 'package:grabber/screens/home.dart';
 
 void main() {
   runApp(Grabber());
@@ -10,7 +10,7 @@ class Grabber extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Home());
   }
 }
 

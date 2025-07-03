@@ -38,9 +38,8 @@ dependencies:
   flutter_svg: ^2.2.0
   google_fonts: ^6.2.1
   carousel_slider: ^5.1.1
-  show_custom_snackbar: ^0.0.1
-  add_to_cart_animated_button: ^0.0.4
   add_to_cart_button: ^0.0.6
+  persistent_bottom_nav_bar: ^6.2.1
 
 dev_dependencies:
   flutter_test:

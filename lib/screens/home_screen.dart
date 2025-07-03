@@ -194,51 +194,51 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 12),
-              height: 70,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Color(0xff0CA201),
-                borderRadius: BorderRadius.circular(7),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Row(
-                    spacing: 6,
-                    children: List.generate(3, (index) {
-                      return CircleAvatar(
-                        child: Image.asset(
-                          'assets/images/fruits/banana.png',
-                          width: 35,
-                        ),
-                      );
-                    }),
-                  ),
-                  VerticalDivider(
-                    color: Colors.white,
-                    indent: 16,
-                    endIndent: 16,
-                  ),
-                  Text(
-                    'View Basket',
-                    style: GoogleFonts.inter(
-                      fontSize: 16,
-                      color: Colors.white,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  SizedBox(width: 6),
-                  SvgPicture.asset(
-                    'assets/images/icons/basket.svg',
-                    // ignore: deprecated_member_use
-                    color: Colors.white,
-                  ),
-                  SizedBox(width: 6),
-                ],
-              ),
-            ),
+            // Container(
+            //   margin: EdgeInsets.symmetric(horizontal: 12),
+            //   height: 70,
+            //   width: double.infinity,
+            //   decoration: BoxDecoration(
+            //     color: Color(0xff0CA201),
+            //     borderRadius: BorderRadius.circular(7),
+            //   ),
+            //   child: Row(
+            //     mainAxisAlignment: MainAxisAlignment.end,
+            //     children: [
+            //       Row(
+            //         spacing: 6,
+            //         children: List.generate(3, (index) {
+            //           return CircleAvatar(
+            //             child: Image.asset(
+            //               'assets/images/fruits/banana.png',
+            //               width: 35,
+            //             ),
+            //           );
+            //         }),
+            //       ),
+            //       VerticalDivider(
+            //         color: Colors.white,
+            //         indent: 16,
+            //         endIndent: 16,
+            //       ),
+            //       Text(
+            //         'View Basket',
+            //         style: GoogleFonts.inter(
+            //           fontSize: 16,
+            //           color: Colors.white,
+            //           fontWeight: FontWeight.w600,
+            //         ),
+            //       ),
+            //       SizedBox(width: 6),
+            //       SvgPicture.asset(
+            //         'assets/images/icons/basket.svg',
+            //         // ignore: deprecated_member_use
+            //         color: Colors.white,
+            //       ),
+            //       SizedBox(width: 6),
+            //     ],
+            //   ),
+            // ),
           ],
         ),
       ),
